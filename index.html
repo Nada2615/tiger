@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoCu - Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .Navigationbar {
+            background-color: #0C3F1B;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .Navigationbar ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 80%;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .Navigationbar li {
+            color: white;
+        }
+
+        .Navigationbar a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .Navigationbar a:hover {
+            color: #FFD700;
+        }
+
+        .hero-section {
+            position: relative;
+            height: 400px;
+            overflow: hidden;
+        }
+
+        .hero-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(70%);
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+
+        .hero-text h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .hero-text p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .content-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .content-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background-color: #7D1517;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="Navigationbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="timetable.html">Timetable</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <img src="image.webp" alt="Martial Arts Gym">
+        <div class="hero-text">
+            <h1>Welcome to RoCu Martial Arts</h1>
+            <p>Explore the world of discipline, strength, and self-defense</p>
+        </div>
+
+    </div>
+
+    <!-- Content Section -->
+    <div class="content-section">
+        <h2>Why Choose RoCu Martial Arts?</h2>
+        <img src="Image2.webp" alt="Martial Arts Gym">
+        <p>
+            At RoCu Martial Arts, we offer a variety of martial arts training programs for all levels. 
+            Whether you are a beginner or an advanced practitioner, we provide expert training in a friendly and disciplined environment.
+        </p>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>Follow us on @RoCu_Martial_Arts</p>
+    </div>
+</body>
+</html>
